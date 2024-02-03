@@ -18,5 +18,5 @@ resource "aws_iam_group" "developers" {
 }
 
 resource "aws_iam_user" "lb" {
-  name = "serge2050"
+  name = "Ghislaine2050"
 }
