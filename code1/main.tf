@@ -13,10 +13,10 @@ provider "aws" {
 }
 
 resource "aws_iam_group" "developers" {
-  name = "developer"
+  name = "ansiblegroup"
   
 }
 
 resource "aws_iam_user" "lb" {
-  name = "Ghislaine2050"
+  name = "ansible"
 }
